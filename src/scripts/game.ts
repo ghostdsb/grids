@@ -4,7 +4,7 @@ import PreloadScene from './scenes/preloadScene'
 
 export const DEFAULT_WIDTH = 1280
 export const DEFAULT_HEIGHT = 720
-export const CELL_SIZE = 20
+export const CELL_SIZE = 40
 
 const config = {
   type: Phaser.AUTO,
