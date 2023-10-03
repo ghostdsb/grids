@@ -65,4 +65,9 @@ export default class Square extends Phaser.GameObjects.Rectangle{
         this.x = x;
         this.y = y;
     }
+
+
+    public getPos(){
+        return {x: this.x, y: this.y}
+    }
 }
